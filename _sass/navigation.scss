@@ -1,0 +1,33 @@
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-family: $header-font;
+  font-size: 65px;
+  color: rgb(0, 0, 0);
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-link {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(70, 70, 70);
+  text-decoration: none;
+  padding: 0 15px;
+
+  &:hover {
+    color: $red;
+  }
+}
