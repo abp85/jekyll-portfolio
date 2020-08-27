@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-sm">
-  <a href="{{ site.baseurl }}" class="navbar-brand"><%=</a>
+  <a href="/" class="navbar-brand"><%=</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class=""><i class="fas fa-bars"></i></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
       {% for item in site.data.navigation %}
-        <a href="#" class="navbar-link {% if page.url == item.link %}current{% endif %}">{{ item.name }}</a>
+        <a href="{{ site.baseurl }}{{ item.link }}" class="navbar-link {% if page.url == item.link %}current{% endif %}">{{ item.name }}</a>
       {% endfor %}
     </div>
   </div>

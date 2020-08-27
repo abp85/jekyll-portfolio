@@ -1,3 +1,7 @@
 title: Alejandro Bringas
 email: bringasalejandro@gmail.com
 # baseurl: /jekyll-portfolio
+
+collections:
+  projects:
+    output: true

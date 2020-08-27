@@ -1,0 +1,39 @@
+.button {
+  border-radius: 2px;
+  border: 1px solid;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-primary {
+  background-color: black;
+  transition: 0.3s;
+    
+  a {
+      color: white;
+      font-weight: 700;
+    }
+
+  &:hover {
+    transition: 0.5s;
+    background-color: transparent;
+
+    a{
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+
+.button-ghost {
+  background-color: transparent;
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}

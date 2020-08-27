@@ -25,12 +25,18 @@
   text-align: right;
   letter-spacing: 3px;
   font-size: 14px;
-  font-weight: 700;
-  color: $gray;
+  font-weight: 600;
+  color: $light-gray;
   padding: 0 15px;
 
   &:hover {
-    color: $gray;
+    color: black;
     text-decoration: none;
+    font-weight: 700;
   }
+}
+
+.current {
+  color: black;
+  font-weight: 700;
 }
