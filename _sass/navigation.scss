@@ -3,15 +3,21 @@
   flex: 0 1 120px;
 }
 
+.navbar-collapse {
+  margin-bottom: 20px;
+
+  a { margin-bottom: 4px; }
+}
+
 .navbar-brand {
   font-family: $header-font;
   font-size: 65px;
-  color: rgb(0, 0, 0);
+  color: black;
+  
+  &:hover { color: black; }
 }
 
-.fas, .fa-bars {
-  font-size: 25px;
-}
+.fas, .fa-bars { font-size: 25px; }
 
 .navbar-link {
   text-transform: uppercase;
@@ -20,11 +26,11 @@
   letter-spacing: 3px;
   font-size: 14px;
   font-weight: 700;
-  color: rgb(70, 70, 70);
+  color: $gray;
   padding: 0 15px;
 
   &:hover {
-    color: black;
+    color: $gray;
     text-decoration: none;
   }
 }

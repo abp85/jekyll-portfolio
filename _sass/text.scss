@@ -5,12 +5,13 @@ $base-font: 'Amiko', sans-serif;
 $header-font: 'Bebas Neue', cursive;
 $red: rgb(213, 20, 35);
 $gray: rgb(70, 70, 70);
+$ligth-gray: rgb(90, 90, 90);
 $dark-gray: rgb(50, 50, 50);
 
 body {
   font-family: $base-font;
   font-weight: 400;
-  color: rgb(70, 70, 70);
+  color: $ligth-gray;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 55px;
+  font-size: 70px;
 }
 
 h2 {
@@ -35,16 +36,15 @@ p {
 }
 
 .name {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   h1 {
     margin: 0;
-    line-height: 50px;
+    line-height: 60px;
   }
 }
 
 .job-title > h2 {
-  color: rgb(30, 30, 30);
   font-size: 16px; 
   margin-bottom: 4px;
 }
