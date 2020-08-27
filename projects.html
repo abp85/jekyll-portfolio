@@ -19,9 +19,11 @@ permalink: /projects
     </div>
     <div class="col-md-6 content">
       <p>{{ project.description }}</p>
-      <button class="button button-ghost">
-        <a href="#">Read more</a>
-      </button>
+      <a href="{{ project.url }}">
+        <button class="button button-ghost">
+          Read More  
+        </button>
+      </a>
     </div>
   </div>
   {% endfor %}
