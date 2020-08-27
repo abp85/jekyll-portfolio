@@ -11,7 +11,7 @@ permalink: /projects
         <h1>{{ project.title }}</h1>
       </div>
       <div class="project-url">
-        <a href="{{ site.baseurl }}/{{ project.project_url }}" target="_blank">
+        <a href="{{ project.project_url }}" target="_blank">
           {{ project.title }}
           <i class="fas fa-link"></i>
         </a>
@@ -19,7 +19,7 @@ permalink: /projects
     </div>
     <div class="col-md-6 content">
       <p>{{ project.description }}</p>
-      <a href="{{ project.url }}">
+      <a href="{{ site.baseurl }}/{{ project.url }}">
         <button class="button button-ghost">
           Read More  
         </button>
